@@ -1,10 +1,11 @@
 package buscadordevagas;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.util.List;
 
-@Getter
+@Getter @AllArgsConstructor
 public class Column {
 
     private final Long id;
@@ -12,12 +13,5 @@ public class Column {
     private ColumnType columnType;
     private Long order;
     private List<Card> cardList;
-
-    public Column(Long id, String name, ColumnType type, Long order) {
-        this.id = id;
-        this.name = name;
-        this.columnType = type;
-        this.order = order;
-    }
 
 }
