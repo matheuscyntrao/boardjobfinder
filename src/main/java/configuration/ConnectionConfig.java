@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public final class ConnectionConfig {
 
     public static Connection getConnection() throws SQLException {
-        var connection = DriverManager.getConnection("jdbc:mysql://localhost/board", DotEnv.getValue("USERNAME"), DotEnv.getValue("PASSWORD"));
+        var connection = DriverManager.getConnection(DotEnv.getValue("DB_URL"), DotEnv.getValue("DB_USERNAME"), DotEnv.getValue("DB_PASSWORD"));
         connection.setAutoCommit(true);
         return connection;
     }
