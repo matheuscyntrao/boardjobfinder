@@ -2,21 +2,18 @@ package buscadordevagas;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-
+import lombok.NoArgsConstructor;
 import java.time.OffsetDateTime;
 
-@AllArgsConstructor
 @Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Card {
 
-    private long ID;
+    private Long id;
     private String title;
+    private int order;
     private String description;
     private OffsetDateTime creationDate;
     private boolean isBlocked;
-
-    public Card() {
-        // Lombok default constructor
-    }
-
 }

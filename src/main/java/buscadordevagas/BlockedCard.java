@@ -8,10 +8,9 @@ import java.time.OffsetDateTime;
 @Getter
 public class BlockedCard extends Card {
 
-    private final long ID;
+    private final Long id;
     private String blockReason;
     private String unblockReason;
     private OffsetDateTime blockDate;
     private OffsetDateTime unblockDate;
-
 }
