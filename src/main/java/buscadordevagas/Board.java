@@ -8,7 +8,7 @@ import java.util.List;
 @Getter @AllArgsConstructor
 public class Board {
 
-    private final long ID;
+    private final Long ID;
     private final String boardName;
     private List<Column> columnList;
 

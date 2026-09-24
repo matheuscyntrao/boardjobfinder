@@ -12,8 +12,8 @@ public class Card {
 
     private Long id;
     private String title;
-    private int order;
+    private Integer order;
     private String description;
     private OffsetDateTime creationDate;
-    private boolean isBlocked;
+    private Boolean isBlocked;
 }

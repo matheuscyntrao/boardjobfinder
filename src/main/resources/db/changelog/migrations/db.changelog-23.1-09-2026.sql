@@ -3,18 +3,17 @@
 --comment: create card and block tables
 
 CREATE TABLE IF NOT EXISTS `card` (
-                                      id BIGINT AUTO_INCREMENT PRIMARY KEY,
-                                      title VARCHAR(255) NOT NULL,
-    `order` INT NOT NULL,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
     description VARCHAR(255) NOT NULL,
-    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    creationDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     board_column_id BIGINT NOT NULL,
     CONSTRAINT board_column_card_fk FOREIGN KEY (board_column_id) REFERENCES `column`(id) ON DELETE CASCADE
     ) ENGINE=InnoDB;
 
 CREATE TABLE IF NOT EXISTS `block` (
-                                       id BIGINT AUTO_INCREMENT PRIMARY KEY,
-                                       block_reason VARCHAR(255) NOT NULL,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    block_reason VARCHAR(255) NOT NULL,
     unblock_reason VARCHAR(255) NULL,
     block_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     unblock_date TIMESTAMP NULL,

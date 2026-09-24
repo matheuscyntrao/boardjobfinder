@@ -11,7 +11,7 @@ public class Column {
     private final Long id;
     private final String name;
     private ColumnType columnType;
-    private Long order;
+    private Integer order;
     private List<Card> cardList;
 
 }
