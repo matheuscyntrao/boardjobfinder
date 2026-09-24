@@ -1,6 +1,5 @@
 package entity;
 
-import buscadordevagas.ColumnType;
 import lombok.Data;
 
 @Data

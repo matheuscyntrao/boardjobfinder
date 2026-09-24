@@ -1,4 +1,4 @@
-package buscadordevagas;
+package entity;
 
 public enum ColumnType {
 
