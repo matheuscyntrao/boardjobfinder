@@ -3,13 +3,13 @@
 --comment: create board and column tables
 
 CREATE TABLE IF NOT EXISTS board (
-                                     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-                                     `name` VARCHAR(255) NOT NULL
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(255) NOT NULL
     ) ENGINE=InnoDB;
 
 CREATE TABLE IF NOT EXISTS `column` (
-                                        id BIGINT AUTO_INCREMENT PRIMARY KEY,
-                                        `name` VARCHAR(255) NOT NULL,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(255) NOT NULL,
     `order` INT NOT NULL,
     column_type VARCHAR(20) NOT NULL,
     board_id BIGINT NOT NULL,
@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS `column` (
 --comment: create card and block tables
 
 CREATE TABLE IF NOT EXISTS `card` (
-                                      id BIGINT AUTO_INCREMENT PRIMARY KEY,
-                                      title VARCHAR(255) NOT NULL,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
     `order` INT NOT NULL,
     description VARCHAR(255) NOT NULL,
     creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -35,8 +35,8 @@ CREATE TABLE IF NOT EXISTS `card` (
     ) ENGINE=InnoDB;
 
 CREATE TABLE IF NOT EXISTS `block` (
-                                       id BIGINT AUTO_INCREMENT PRIMARY KEY,
-                                       block_reason VARCHAR(255) NOT NULL,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    block_reason VARCHAR(255) NOT NULL,
     unblock_reason VARCHAR(255) NULL,
     block_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     unblock_date TIMESTAMP NULL,
