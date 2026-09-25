@@ -1,19 +1,17 @@
 package entity;
 
+import entity.ColumnType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.OffsetDateTime;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CardEntity {
+public class ColumnEntity {
     private Long id;
-    private String title;
+    private String name;
     private int order;
-    private String description;
-    private OffsetDateTime creationDate;
-    private Long boardColumnId;
+    private ColumnType columnType;
+    private Long boardId;
 }

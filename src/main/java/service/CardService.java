@@ -1,20 +1,21 @@
 package service;
 
-import DAO.BoardDAO;
-import entity.BoardEntity;
+import DAO.CardDAO;
+import entity.CardEntity;
 import lombok.AllArgsConstructor;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.Optional;
 
 @AllArgsConstructor
-public class BoardService {
+public class CardService {
 
     private final Connection connection;
 
-    public BoardEntity create(final BoardEntity entity) throws SQLException {
-        var dao = new BoardDAO(connection);
+    public CardEntity create(final CardEntity entity) throws SQLException {
+        var dao = new CardDAO(connection);
         try {
             var createdEntity = dao.insert(entity);
             connection.commit();
@@ -26,7 +27,7 @@ public class BoardService {
     }
 
     public boolean delete(final Long id) throws SQLException {
-        var dao = new BoardDAO(connection);
+        var dao = new CardDAO(connection);
         try {
             if (!dao.exists(id)) {
                 return false;
@@ -40,8 +41,13 @@ public class BoardService {
         }
     }
 
-    public Optional<BoardEntity> findById(final Long id) throws SQLException {
-        var dao = new BoardDAO(connection);
+    public Optional<CardEntity> findById(final Long id) throws SQLException {
+        var dao = new CardDAO(connection);
         return dao.findById(id);
+    }
+
+    public List<CardEntity> findByColumnId(final Long columnId) throws SQLException {
+        var dao = new CardDAO(connection);
+        return dao.findByColumnId(columnId);
     }
 }

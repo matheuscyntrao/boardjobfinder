@@ -71,3 +71,191 @@ set. 24, 2026 11:54:37 AM liquibase.lockservice
 INFORMAÇÕES: Successfully released change log lock
 set. 24, 2026 11:54:37 AM liquibase.command
 INFORMAÇÕES: Command execution complete
+set. 25, 2026 1:21:54 AM liquibase.changelog
+INFORMAÇÕES: Creating database changelog table with name: board.DATABASECHANGELOG
+set. 25, 2026 1:21:55 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+set. 25, 2026 1:21:55 AM liquibase.snapshot
+INFORMAÇÕES: Creating snapshot
+Integer display width is deprecated and will be removed in a future release.
+set. 25, 2026 1:21:55 AM liquibase.lockservice
+INFORMAÇÕES: Successfully acquired change log lock
+set. 25, 2026 1:21:55 AM liquibase.command
+INFORMAÇÕES: Using deploymentId: 0310111747
+set. 25, 2026 1:21:55 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus
+set. 25, 2026 1:21:55 AM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+set. 25, 2026 1:21:55 AM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus ran successfully in 59ms
+set. 25, 2026 1:21:55 AM liquibase.util
+INFORMAÇÕES: UPDATE SUMMARY
+set. 25, 2026 1:21:55 AM liquibase.util
+INFORMAÇÕES: Run:                          1
+set. 25, 2026 1:21:55 AM liquibase.util
+INFORMAÇÕES: Previously run:               0
+set. 25, 2026 1:21:55 AM liquibase.util
+INFORMAÇÕES: Filtered out:                 0
+set. 25, 2026 1:21:55 AM liquibase.util
+INFORMAÇÕES: -------------------------------
+set. 25, 2026 1:21:55 AM liquibase.util
+INFORMAÇÕES: Total change sets:            1
+set. 25, 2026 1:21:55 AM liquibase.util
+INFORMAÇÕES: Update summary generated
+set. 25, 2026 1:21:55 AM liquibase.command
+INFORMAÇÕES: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 0
+set. 25, 2026 1:21:55 AM liquibase.lockservice
+INFORMAÇÕES: Successfully released change log lock
+set. 25, 2026 1:21:55 AM liquibase.command
+INFORMAÇÕES: Command execution complete
+set. 25, 2026 1:22:14 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+set. 25, 2026 1:22:14 AM liquibase.lockservice
+INFORMAÇÕES: Successfully acquired change log lock
+set. 25, 2026 1:22:14 AM liquibase.command
+INFORMAÇÕES: Using deploymentId: 0310120711
+set. 25, 2026 1:22:14 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-23.1-09-2026.sql::23.2-09-2026-2::matheus
+set. 25, 2026 1:22:14 AM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+set. 25, 2026 1:22:14 AM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-23.1-09-2026.sql::23.2-09-2026-2::matheus ran successfully in 85ms
+set. 25, 2026 1:22:14 AM liquibase.util
+INFORMAÇÕES: UPDATE SUMMARY
+set. 25, 2026 1:22:14 AM liquibase.util
+INFORMAÇÕES: Run:                          1
+set. 25, 2026 1:22:14 AM liquibase.util
+INFORMAÇÕES: Previously run:               0
+set. 25, 2026 1:22:14 AM liquibase.util
+INFORMAÇÕES: Filtered out:                 0
+set. 25, 2026 1:22:14 AM liquibase.util
+INFORMAÇÕES: -------------------------------
+set. 25, 2026 1:22:14 AM liquibase.util
+INFORMAÇÕES: Total change sets:            1
+set. 25, 2026 1:22:14 AM liquibase.util
+INFORMAÇÕES: Update summary generated
+set. 25, 2026 1:22:14 AM liquibase.command
+INFORMAÇÕES: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 0
+set. 25, 2026 1:22:14 AM liquibase.lockservice
+INFORMAÇÕES: Successfully released change log lock
+set. 25, 2026 1:22:14 AM liquibase.command
+INFORMAÇÕES: Command execution complete
+set. 25, 2026 1:23:08 AM liquibase.parser
+INFORMAÇÕES: An additional formatted SQL header line was discovered for changeset db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus and will be treated as a comment
+set. 25, 2026 1:23:09 AM liquibase.changelog
+INFORMAÇÕES: Creating database changelog table with name: board.DATABASECHANGELOG
+set. 25, 2026 1:23:09 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+set. 25, 2026 1:23:09 AM liquibase.snapshot
+INFORMAÇÕES: Creating snapshot
+Integer display width is deprecated and will be removed in a future release.
+set. 25, 2026 1:23:09 AM liquibase.lockservice
+INFORMAÇÕES: Successfully acquired change log lock
+set. 25, 2026 1:23:09 AM liquibase.command
+INFORMAÇÕES: Using deploymentId: 0310185948
+set. 25, 2026 1:23:09 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus
+set. 25, 2026 1:23:09 AM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+set. 25, 2026 1:23:09 AM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus ran successfully in 57ms
+Running Changeset: db/changelog/migrations/db.changelog-23.0-09-2026.sql::23.2-09-2026-2::matheus
+set. 25, 2026 1:23:09 AM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+set. 25, 2026 1:23:09 AM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-23.0-09-2026.sql::23.2-09-2026-2::matheus ran successfully in 62ms
+set. 25, 2026 1:23:09 AM liquibase.util
+INFORMAÇÕES: UPDATE SUMMARY
+set. 25, 2026 1:23:09 AM liquibase.util
+INFORMAÇÕES: Run:                          2
+set. 25, 2026 1:23:09 AM liquibase.util
+INFORMAÇÕES: Previously run:               0
+set. 25, 2026 1:23:09 AM liquibase.util
+INFORMAÇÕES: Filtered out:                 0
+set. 25, 2026 1:23:09 AM liquibase.util
+INFORMAÇÕES: -------------------------------
+set. 25, 2026 1:23:09 AM liquibase.util
+INFORMAÇÕES: Total change sets:            2
+set. 25, 2026 1:23:09 AM liquibase.util
+INFORMAÇÕES: Update summary generated
+set. 25, 2026 1:23:09 AM liquibase.command
+INFORMAÇÕES: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 0
+set. 25, 2026 1:23:09 AM liquibase.lockservice
+INFORMAÇÕES: Successfully released change log lock
+set. 25, 2026 1:23:09 AM liquibase.command
+INFORMAÇÕES: Command execution complete
+set. 25, 2026 1:28:35 AM liquibase.parser
+INFORMAÇÕES: An additional formatted SQL header line was discovered for changeset db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus and will be treated as a comment
+set. 25, 2026 1:28:35 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+Database is up to date, no changesets to execute
+set. 25, 2026 1:28:35 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+set. 25, 2026 1:28:35 AM liquibase.util
+INFORMAÇÕES: UPDATE SUMMARY
+set. 25, 2026 1:28:35 AM liquibase.util
+INFORMAÇÕES: Run:                          0
+set. 25, 2026 1:28:35 AM liquibase.util
+INFORMAÇÕES: Previously run:               2
+set. 25, 2026 1:28:35 AM liquibase.util
+INFORMAÇÕES: Filtered out:                 0
+set. 25, 2026 1:28:35 AM liquibase.util
+INFORMAÇÕES: -------------------------------
+set. 25, 2026 1:28:35 AM liquibase.util
+INFORMAÇÕES: Total change sets:            2
+set. 25, 2026 1:28:35 AM liquibase.util
+INFORMAÇÕES: Update summary generated
+set. 25, 2026 1:28:35 AM liquibase.command
+INFORMAÇÕES: Command execution complete
+set. 25, 2026 1:30:42 AM liquibase.parser
+INFORMAÇÕES: An additional formatted SQL header line was discovered for changeset db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus and will be treated as a comment
+set. 25, 2026 1:30:42 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+Database is up to date, no changesets to execute
+set. 25, 2026 1:30:42 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+set. 25, 2026 1:30:42 AM liquibase.util
+INFORMAÇÕES: UPDATE SUMMARY
+set. 25, 2026 1:30:42 AM liquibase.util
+INFORMAÇÕES: Run:                          0
+set. 25, 2026 1:30:42 AM liquibase.util
+INFORMAÇÕES: Previously run:               2
+set. 25, 2026 1:30:42 AM liquibase.util
+INFORMAÇÕES: Filtered out:                 0
+set. 25, 2026 1:30:42 AM liquibase.util
+INFORMAÇÕES: -------------------------------
+set. 25, 2026 1:30:42 AM liquibase.util
+INFORMAÇÕES: Total change sets:            2
+set. 25, 2026 1:30:42 AM liquibase.util
+INFORMAÇÕES: Update summary generated
+set. 25, 2026 1:30:42 AM liquibase.command
+INFORMAÇÕES: Command execution complete
+set. 25, 2026 1:32:18 AM liquibase.parser
+INFORMAÇÕES: An additional formatted SQL header line was discovered for changeset db/changelog/migrations/db.changelog-23.0-09-2026.sql::23-09-2026-1::matheus and will be treated as a comment
+set. 25, 2026 1:32:18 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+Database is up to date, no changesets to execute
+set. 25, 2026 1:32:18 AM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+set. 25, 2026 1:32:18 AM liquibase.util
+INFORMAÇÕES: UPDATE SUMMARY
+set. 25, 2026 1:32:18 AM liquibase.util
+INFORMAÇÕES: Run:                          0
+set. 25, 2026 1:32:18 AM liquibase.util
+INFORMAÇÕES: Previously run:               2
+set. 25, 2026 1:32:18 AM liquibase.util
+INFORMAÇÕES: Filtered out:                 0
+set. 25, 2026 1:32:18 AM liquibase.util
+INFORMAÇÕES: -------------------------------
+set. 25, 2026 1:32:18 AM liquibase.util
+INFORMAÇÕES: Total change sets:            2
+set. 25, 2026 1:32:18 AM liquibase.util
+INFORMAÇÕES: Update summary generated
+set. 25, 2026 1:32:18 AM liquibase.command
+INFORMAÇÕES: Command execution complete

@@ -1,16 +1,19 @@
 package entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.OffsetDateTime;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class BlockEntity {
-
     private Long id;
-    private String block_reason;
-    private String unblock_reason;
-    private OffsetDateTime block_date;
-    private OffsetDateTime unblock_date;
-
+    private String blockReason;
+    private String unblockReason;
+    private OffsetDateTime blockDate;
+    private OffsetDateTime unblockDate;
+    private Long cardId;
 }
